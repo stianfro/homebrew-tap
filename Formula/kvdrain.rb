@@ -31,6 +31,6 @@ class Kvdrain < Formula
   end
 
   test do
-    assert_match "kvdrain v#{version}", shell_output("#{bin}/kvdrain version")
+    assert_match "kvdrain #{version}", shell_output("#{bin}/kvdrain version")
   end
 end
