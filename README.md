@@ -15,8 +15,7 @@ The shorter form is equivalent:
 brew install stianfro/tap/kvdrain
 ```
 
-The `kvdrain` formula will be added with its first stable release. Release updates
-are proposed as pull requests and verified before merge.
+Release updates are proposed as pull requests and verified before merge.
 
 ## License
 
