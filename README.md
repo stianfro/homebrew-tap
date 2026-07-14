@@ -9,6 +9,12 @@ brew tap stianfro/tap
 brew install kvdrain
 ```
 
+If `HOMEBREW_REQUIRE_TAP_TRUST` is enabled, trust the tap before installing:
+
+```sh
+brew trust --tap stianfro/tap
+```
+
 The shorter form is equivalent:
 
 ```sh
