@@ -7,6 +7,7 @@ Homebrew formulae for projects maintained by [stianfro](https://github.com/stian
 ```sh
 brew tap stianfro/tap
 brew install kvdrain
+brew install --cask hae
 ```
 
 If `HOMEBREW_REQUIRE_TAP_TRUST` is enabled, trust the tap before installing:
@@ -19,7 +20,13 @@ The shorter form is equivalent:
 
 ```sh
 brew install stianfro/tap/kvdrain
+brew install --cask stianfro/tap/hae
 ```
+
+Hæ? 0.1.0 is an ad hoc signed personal beta and has not been notarized by
+Apple. If macOS blocks its first launch, attempt to open Hæ?, then go to
+**System Settings > Privacy & Security** and choose **Open Anyway**. Do not
+disable Gatekeeper globally.
 
 Release updates are proposed as pull requests and verified before merge.
 
