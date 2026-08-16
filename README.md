@@ -24,9 +24,13 @@ brew install --cask stianfro/tap/hae
 ```
 
 Hæ? 0.1.0 is an ad hoc signed personal beta and has not been notarized by
-Apple. If macOS blocks its first launch, attempt to open Hæ?, then go to
-**System Settings > Privacy & Security** and choose **Open Anyway**. Do not
-disable Gatekeeper globally.
+Apple. If macOS blocks it, remove the quarantine attribute from this app only:
+
+```sh
+/usr/bin/xattr -dr com.apple.quarantine /Applications/Hae.app
+```
+
+This does not disable Gatekeeper globally.
 
 Release updates are proposed as pull requests and verified before merge.
 
