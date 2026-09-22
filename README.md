@@ -6,6 +6,7 @@ Homebrew formulae for projects maintained by [stianfro](https://github.com/stian
 
 ```sh
 brew tap stianfro/tap
+brew install modelctl
 brew install kvdrain
 brew install --cask hae
 ```
@@ -19,6 +20,7 @@ brew trust --tap stianfro/tap
 The shorter form is equivalent:
 
 ```sh
+brew install stianfro/tap/modelctl
 brew install stianfro/tap/kvdrain
 brew install --cask stianfro/tap/hae
 ```
