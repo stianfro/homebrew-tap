@@ -1,28 +1,28 @@
 class Modelctl < Formula
   desc "Manage OpenCode models and API tokens"
   homepage "https://stianfro.github.io/modelctl/"
-  version "0.1.0"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/stianfro/modelctl/releases/download/v0.1.0/modelctl_0.1.0_darwin_arm64.tar.gz"
-      sha256 "ec77ff46496771856f0cab6faf2bc1d77b3fee7c7d4f2da88c2844f59c03bfa0"
+      url "https://github.com/stianfro/modelctl/releases/download/v1.0.0/modelctl_1.0.0_darwin_arm64.tar.gz"
+      sha256 "04c9270d90aacaf2c188ef64c68c16cb93005597254fae8f6e4ea2dca3e6b9e8"
     end
     on_intel do
-      url "https://github.com/stianfro/modelctl/releases/download/v0.1.0/modelctl_0.1.0_darwin_amd64.tar.gz"
-      sha256 "92d1625fa512c5214eb07f7efd7faad369e79b5d8ca97117dc1fbc931dcf4830"
+      url "https://github.com/stianfro/modelctl/releases/download/v1.0.0/modelctl_1.0.0_darwin_amd64.tar.gz"
+      sha256 "9d814db0928b0b400adfacbd589f5e8bd9bf63778fa474dee1153477697cd9a3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/stianfro/modelctl/releases/download/v0.1.0/modelctl_0.1.0_linux_arm64.tar.gz"
-      sha256 "a5a9695886159e55594ce4763adae1f05f8809331706ff751333aa0fd4fd8a70"
+      url "https://github.com/stianfro/modelctl/releases/download/v1.0.0/modelctl_1.0.0_linux_arm64.tar.gz"
+      sha256 "f04a9d7c72917e50698e0945ac6e5c65568115151813ca415d0963efeb5c18bd"
     end
     on_intel do
-      url "https://github.com/stianfro/modelctl/releases/download/v0.1.0/modelctl_0.1.0_linux_amd64.tar.gz"
-      sha256 "c56cbdb15c09725386673f1f2ded67a23003e575f72515b5a91270e8484c35ab"
+      url "https://github.com/stianfro/modelctl/releases/download/v1.0.0/modelctl_1.0.0_linux_amd64.tar.gz"
+      sha256 "4187a6896855902337e1e6e86bb0cd598f7b3068710105f2c8ed8881a93b92da"
     end
   end
 
